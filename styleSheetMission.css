@@ -1,0 +1,172 @@
+/*top navigation formatting*/
+
+[class*="topNavBox"]{
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+    padding-bottom: 22px;
+    padding-left: 180px;
+}
+/*Kompas LOGO*/
+[class*="logoCell"]{
+
+    position: absolute;
+    display: inline-block;
+    align-self: normal;
+    padding-top: 15px;
+}
+
+
+.ms-HorizontalNavItem-link {
+  font-weight: bold;
+}
+
+
+/*hide unwanted details*/
+[class*="titleSubcell"] {
+  visibility: hidden;
+}
+
+[class^=sideActionsWrapper] {
+    visibility: hidden;
+}
+
+/*Side navigation formatting*/
+[class^=ms-Button-flexContainer]{
+   font-weight: bold;
+}
+
+/*webpart header formatting*/
+span[role=heading] {
+    font-variant-caps: all-petite-caps;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/*footer*/
+.CanvasZoneContainer.CanvasZoneContainer--hintUpdate.CanvasZoneContainer--read:nth-child(7) {
+    background: #d4cecd;
+    height: 100px;
+    background-image: url(/SiteAssets/SPFx/icons/MSF_logo.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 97%;
+}
+p {
+    margin: 0px !important;
+}
+
+/*Links icons*/
+[class*=image-]{
+height: 100% !important ;
+}
+
+.CanvasSection--read .ControlZone:last-of-type {
+    margin-bottom: 15px;
+}
+.CanvasSection--read .ControlZone {
+    margin-top: 0px;
+}
+
+.CanvasZone:not(.CanvasZone--fullWidth) .ControlZone {
+    padding: 0px;
+}
+
+
+.CanvasZone.row.CanvasZone--alignment.CanvasZone--noMargin.CanvasZone--read {
+    padding-left: 0px;
+}
+
+.overlayText_cf4f2c54 webView_cf4f2c54 .overlayText_7d84e91b.webView_7d84e91b {
+    background: fixed;
+    color: black;
+    margin: 0px;
+}
+
+/*cover text*/
+[class^=overlayText_]
+{
+    padding: 0px;
+    background: none;
+    color: black;
+}
+
+.cke_editable ul {  
+   padding-bottom: 100px;
+   background-color: #d4cecd;
+}
+li {
+    text-align: center;
+    display: block;
+}
+
+.captionElement__LargeMargin_195a413c.captionElement__title_195a413c.captionElement__leftAlign_195a413c.title_d8d79e90 {
+    font-variant: all-small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/* Links */
+[class^=lessText_] {
+    color: black !important;
+}
+.ControlZone:nth-child(5) {
+    background: url(/SiteAssets/SPFx/icons/MSF_icon_contact.png);
+    background-repeat: no-repeat;
+    padding-left: 5% !important;
+    background-position-y: 15px;
+}
+
+/*links squares*/
+
+a[class^="root_"][class*="ButtonCard"][class*="iconTop"]
+{
+    border-radius: 20px;
+    background-color: #dedad9 !important;
+}
+
+/* Workspace */
+
+a[class^=root_][class*=ButtonCard] {
+    background: red;
+}
+
+/*News*/
+.CanvasZoneContainer.CanvasZoneContainer--hintUpdate.CanvasZoneContainerEmphasis.root-62.CanvasZoneContainer--read:nth-child(4) {
+    background: url(/SiteAssets/SPFx/icons/MSF_icon_news.png);
+    background-repeat: no-repeat;
+    background-position-y: 17px;
+    background-position-x: 8px;
+	padding-left: 35px;
+}
+/*WorkSpace*/
+.ControlZone:nth-child(3) {
+    background: url(/SiteAssets/SPFx/icons/MSF_icon_Workspace.png);
+    background-repeat: no-repeat;
+    padding-left: 35px !important;
+    background-position-x: 0px;
+    background-position-y: 16px;
+}
+/*helpdesk*/
+.ControlZone:nth-child(2) {
+    background: url(/SiteAssets/SPFx/icons//MSF_icon_contact.png);
+    background-repeat: no-repeat;
+    padding-left: 30px !important;
+    background-position-x: 0px;
+    background-position-y: 12px;
+}
+.CanvasZoneContainer.CanvasZoneContainer--hintUpdate.CanvasZoneContainer--read:nth-child(6) {
+    background-image: url(/SiteAssets/SPFx/icons/MSF_icon_documents.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position-y: 17px;
+    background-position-x: 10px;
+    
+}
+
+.ControlZoneEmphasisBackground.root-65 {
+    background-color: #f1f1f1;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+
